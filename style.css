@@ -73,7 +73,6 @@ body {
 .article-box{
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
 	background-color: white;
 	margin-top: -90px;
 	padding: 60px 30px;
@@ -102,15 +101,39 @@ h1{
 
 @media (max-width: 550px){
 	h1{
+		letter-spacing: 10px;
 		font-size: 25px;
 	}
 }
 
 p{
+	display: block;
 	font-size: 20px;
-	line-height: 40px;
-	letter-spacing: 3px;
-	margin-bottom: 5vh;
+	line-height: 45px;
+	letter-spacing: 2.5px;
+	margin-bottom: 2vh;
+	width:100%;
+}
+
+@media (max-width: 550px){
+	p{
+		line-height: 30px;
+	}
+}
+
+.google-map{
+	display: block;
+	margin:3vh auto 5vh auto;
+}
+
+.photo{
+	display:block; 
+	margin: 3vh auto 5vh auto;
+}
+
+.picture-text{
+	display: flex;
+	justify-content: center;
 }
 
 
