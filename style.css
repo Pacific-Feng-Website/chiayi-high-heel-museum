@@ -42,7 +42,6 @@ div.top-pic{
 
 body {
     background-color: #fff;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     color: #343851;
@@ -180,5 +179,12 @@ h1{
     margin-right: 15px;
     margin-left: 15px;
     width: 380px;
+}
+
+.contact-icons {
+    display: inline-block;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    text-align: center;
 }
 
