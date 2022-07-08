@@ -66,14 +66,21 @@ body {
 	top:40%;
 }
 
+#content{
+	display: flex;
+}
 
 .article-box{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 	background-color: white;
 	margin-top: -90px;
-	padding-top: 50px;
+	padding: 60px 30px;
 	position: relative;
 	border-radius: 15px;
 	box-shadow: 0 0 80px rgb(0 0 0 / 10%) ;
+	margin-bottom: 50px;
 }
 
 #row1{
@@ -97,6 +104,13 @@ h1{
 	h1{
 		font-size: 25px;
 	}
+}
+
+p{
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: 3px;
+	margin-bottom: 5vh;
 }
 
 
