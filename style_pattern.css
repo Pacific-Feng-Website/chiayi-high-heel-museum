@@ -365,14 +365,6 @@ footer div h6{
 	}
 }
 
-.seperator{
-    margin: 1rem 0;
-    color: inherit;
-    background-color: currentColor;
-    border: 0;
-    opacity: .25;
-	height: 1px;
-}
 
 div.mce_inline_error{
 	background-color:#F0EFED !important;
