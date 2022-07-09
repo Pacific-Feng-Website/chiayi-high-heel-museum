@@ -218,3 +218,68 @@ h1{
 	border-radius: 100%;
 	margin: 0 1vw 2vw 0;
 }
+
+#recent-post {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--grey4);
+	width:100%;
+}
+
+.page-subtitle {
+    font-weight: var(--font2-regular);
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.recent-list {
+    font-size: 0.7em;
+}
+
+.recent-item {
+    display: inline;
+}
+
+.recent-item-img {
+    position: relative;
+    display: inline-block;
+    width: 24%;
+    height: 150px;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.recent-item-title {
+    position: absolute;
+    left: 2.5%;
+    bottom: 2.5%;
+    width: 97.5%;
+    font-size: 12px;
+    font-family: var(--font2), sans-serif;
+    font-weight: var(--font2-bold);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: #00000099;
+    padding-left: 5px;
+}
+
+.recent-item-meta {
+    padding-left: 5px;
+    font-size: 8px;
+    display: block;
+}
+
+#recent-post p {
+    display: block;
+    font-size: 7px;
+    line-height: 45px;
+    letter-spacing: 2.5px;
+    margin-bottom: 2vh;
+    width: 100%;
+}
