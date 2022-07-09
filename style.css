@@ -74,7 +74,7 @@ body {
 	flex-flow: row wrap;
 	background-color: white;
 	margin-top: -90px;
-	padding: 60px 40px;
+	padding: 3vh 2vw;
 	position: relative;
 	border-radius: 15px;
 	box-shadow: 0 0 80px rgb(0 0 0 / 10%) ;
