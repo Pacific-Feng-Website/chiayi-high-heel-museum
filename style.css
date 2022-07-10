@@ -126,9 +126,22 @@ h1{
 }
 
 #content .photo{
+	width: 800px;
 	display:block; 
-	margin: 3vh auto 5vh auto;
+	margin: 3vh auto 1vh auto;
 }
+
+#content .post-time{
+	font-size: 13px;
+	color: pink;
+	font-weight:bold;
+	margin:0;
+}
+
+#content .fb-like{
+	margin: 0.5vh 0 5vh 0;
+}
+
 
 #content .photo-in-text{
 	display:block;
