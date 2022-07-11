@@ -282,3 +282,134 @@ h1{
 		margin-bottom: 0;
 	}
 }
+
+#recent-post{
+	display: flex;
+	justify-content: center;
+}
+
+#recentPost .recentPost-box-range{
+	margin: 2vh 0;
+}
+
+#recentPost .card-range{
+	padding: 0 5px;
+	display: flex;
+	justify-content:center;
+}
+
+#recentPost .recentPost-box{
+	width: 100%; 
+	height:auto;
+	margin: 1vh 0;
+	border-radius:0%;
+}
+
+@media (max-width: 575px){
+	#recentPost .recentPost-box{
+		width: 80%; 
+		display:flex;
+	}
+}
+
+#recentPost .card-img-overlayer{
+	position: absolute;
+	width: 100%;
+	height: 45%;
+	bottom: 0%;
+	background-color:#00000099;
+	padding-left: 0.5vw
+}
+
+#recentPost .card-img-overlayer h5{
+	margin-top: 10px;
+	margin-bottom: 2px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: white;
+}
+
+#recentPost .card-img-overlayer p{
+	font-size: 12px;
+	line-height: 30px !important;
+	color: white;
+}
+
+@media (max-width: 1400px){
+	
+	#recentPost .card-img-overlayer{
+		padding-left: 1vw
+	}
+	
+	#recentPost .card-img-overlayer{
+		height: 40%;
+	}
+	
+	#recentPost .card-img-overlayer h5{
+		margin-top: 1.5vh;
+		margin-bottom: 2px;
+		font-size: 20px;
+		font-weight: bolder;
+		color: white;
+	}
+
+	#recentPost .card-img-overlayer p{
+		font-size: 16px;
+		line-height: 50px !important;
+		color: white;
+	}
+}
+
+@media (max-width: 1200px){
+	#recentPost .card-img-overlayer{
+		height: 40%;
+	}
+	
+	#recentPost .card-img-overlayer h5{
+		margin-top: 1vh;
+		margin-bottom: 2px;
+		font-size: 20px;
+		font-weight: bolder;
+		color: white;
+	}
+
+	#recentPost .card-img-overlayer p{
+		font-size: 16px;
+		line-height: 35px !important;
+		color: white;
+	}
+}
+
+@media (max-width: 991px){
+	#recentPost .card-img-overlayer{
+		height: 50%;
+	}
+	
+	#recentPost .card-img-overlayer h5{
+		margin-top: 1.4vh;
+	}
+	
+	#recentPost .card-img-overlayer p{
+		line-height: 50px !important;
+	}
+}
+
+@media (max-width: 767px){	
+	#recentPost .card-img-overlayer h5{
+		margin-top: 1vh;
+	}
+	
+	#recentPost .card-img-overlayer p{
+		line-height: 40px !important;
+	}
+}
+
+@media (max-width: 576px){
+	#recentPost .card-img-overlayer{
+		height: 35%;
+	}
+	
+	#recentPost .card-img-overlayer p{
+		line-height: 50px !important;
+	}
+}
