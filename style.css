@@ -232,6 +232,11 @@ h1{
 	transition: .5s;
 }
 
+#content i:hover{
+	opacity:0.8;
+	transition: .5s;
+}
+
 #selfIntro .row{
     display: flex;
     flex-wrap: nowrap !important;
