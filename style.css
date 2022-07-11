@@ -155,9 +155,14 @@ h1{
 
 #content .post-time{
 	font-size: 13px;
-	color: pink;
-	font-weight:bold;
+	color: #EACACB;
+	font-weight:bolder;
 	margin:0;
+}
+
+#content .post-time:hover{
+	color: #B1D3C5;
+	transition:0.5s;
 }
 
 #content .fb-like{
@@ -201,8 +206,18 @@ h1{
 	color: black;
 }
 
+#relevantPage p:hover{
+	color: #B1D3C5;
+	transition:0.5s;
+}
+
 #relevantPage i{
 	color: black;
+}
+
+#relevantPage i:hover{
+	color: #B1D3C5;
+	transition:0.5s;
 }
 
 #content #author-pic{
@@ -210,6 +225,11 @@ h1{
 	width:120px;
 	margin-top: 1vh;
 	margin-bottom:2vh;
+}
+
+#content #author-pic:hover{
+	opacity:0.8;
+	transition: .5s;
 }
 
 #selfIntro .row{
