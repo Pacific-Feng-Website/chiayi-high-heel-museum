@@ -206,7 +206,7 @@ h1{
 	color: black;
 }
 
-#relevantPage ..pair1:hover{
+#relevantPage .pair1:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
@@ -232,22 +232,22 @@ h1{
 	transition: .5s;
 }
 
-#selfIntro .fb:hover{
+#selfIntro #fb-selfIntro:hover{
 	color: #0080FF;
 	transition: .5s;
 }
 
-#selfIntro .ig:hover{
+#selfIntro #ig-selfIntro:hover{
 	color: #FF00FF;
 	transition: .5s;
 }
 
-#selfIntro .mail:hover{
+#selfIntro #mail-selfIntro:hover{
 	color: #0080FF;
 	transition: .5s;
 }
 
-#selfIntro .github:hover{
+#selfIntro #github-selfIntro:hover{
 	opacity:0.6;
 	transition: .5s;
 }
