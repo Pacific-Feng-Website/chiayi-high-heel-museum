@@ -202,117 +202,117 @@ h1{
 	flex-flow:row wrap;
 }
 
-#relevantPage .pair1-1{
+#relevantPage #pair1-1{
 	color: black;
 }
 
-#relevantPage .pair1-2{
+#relevantPage #pair1-2{
 	color: black;
 }
 
-#relevantPage .pair1-3{
+#relevantPage #pair1-3{
 	color: black;
 }
 
-#relevantPage .pair1-1:hover{
+#relevantPage #pair1-1:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-1:hover ~ .pair1-2{
+#relevantPage #pair1-1:hover ~ #pair1-2{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-1:hover ~ .pair1-3{
+#relevantPage #pair1-1:hover ~ #pair1-3{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-2:hover{
+#relevantPage #pair1-2:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-2:hover ~ .pair1-1{
+#relevantPage #pair1-2:hover ~ #pair1-1{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-2:hover ~ .pair1-3{
+#relevantPage #pair1-2:hover ~ #pair1-3{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-3:hover{
+#relevantPage #pair1-3:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-3:hover ~ .pair1-1{
+#relevantPage #pair1-3:hover ~ #pair1-1{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair1-3:hover ~ .pair1-2{
+#relevantPage #pair1-3:hover ~ #pair1-2{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
 
-#relevantPage .pair2-1{
+#relevantPage #pair2-1{
 	color: black;
 }
 
-#relevantPage .pair2-2{
+#relevantPage #pair2-2{
 	color: black;
 }
 
-#relevantPage .pair2-3{
+#relevantPage #pair2-3{
 	color: black;
 }
 
-#relevantPage .pair2-1:hover{
+#relevantPage #pair2-1:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair2-1:hover ~ .pair2-2{
+#relevantPage #pair2-1:hover ~ #pair2-2{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair2-1:hover ~ .pair2-3{
+#relevantPage #pair2-1:hover ~ #pair2-3{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair2-2:hover{
+#relevantPage #pair2-2:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair2-2:hover ~ .pair2-1{
+#relevantPage #pair2-2:hover ~ #pair2-1{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair22:hover ~ .pair2-3{
+#relevantPage #pair22:hover ~ #pair2-3{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair2-3:hover{
+#relevantPage #pair2-3:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair2-3:hover ~ .pair2-1{
+#relevantPage #pair2-3:hover ~ #pair2-1{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage .pair2-3:hover ~ .pair2-2{
+#relevantPage #pair2-3:hover ~ #pair2-2{
 	color: #B1D3C5;
 	transition:0.5s;
 }
@@ -351,7 +351,7 @@ h1{
 }
 
 #selfIntro #ig-selfIntro:hover{
-	color: #FF00FF;
+	color: #F400F7;
 	transition: .5s;
 }
 
