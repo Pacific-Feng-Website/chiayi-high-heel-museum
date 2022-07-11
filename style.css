@@ -137,7 +137,7 @@ h1{
 }
 
 #siteIntro a .changeColor{
-	color: #B1D3C5;
+	color: #A2B59F;
 	font-weight: bold;
 	display:inline;
 }
@@ -161,7 +161,7 @@ h1{
 }
 
 #content .post-time:hover{
-	color: #B1D3C5;
+	color: #A2B59F;
 	transition:0.5s;
 }
 
