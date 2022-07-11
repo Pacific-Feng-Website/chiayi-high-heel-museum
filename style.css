@@ -202,20 +202,20 @@ h1{
 	flex-flow:row wrap;
 }
 
-#relevantPage p{
+#relevantPage pair1{
 	color: black;
 }
 
-#relevantPage p:hover{
+#relevantPage pair1:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage i{
+#relevantPage pair2{
 	color: black;
 }
 
-#relevantPage i:hover{
+#relevantPage pair2:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
@@ -388,7 +388,7 @@ h1{
 }
 
 #recentPost img:hover{
-	opacity:0.8;
+	opacity:0.6;
 	transition: .5s;
 }
 
