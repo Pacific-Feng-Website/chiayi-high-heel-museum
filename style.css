@@ -202,20 +202,20 @@ h1{
 	flex-flow:row wrap;
 }
 
-#relevantPage pair1{
+#relevantPage .pair1{
 	color: black;
 }
 
-#relevantPage pair1:hover{
+#relevantPage ..pair1:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
 
-#relevantPage pair2{
+#relevantPage .pair2{
 	color: black;
 }
 
-#relevantPage pair2:hover{
+#relevantPage .pair2:hover{
 	color: #B1D3C5;
 	transition:0.5s;
 }
@@ -232,22 +232,22 @@ h1{
 	transition: .5s;
 }
 
-#content i .fb:hover{
+#content .fb:hover{
 	color: #0080FF;
 	transition: .5s;
 }
 
-#content i .ig:hover{
+#content .ig:hover{
 	color: #FF00FF;
 	transition: .5s;
 }
 
-#content i .mail:hover{
+#content .mail:hover{
 	color: #0080FF;
 	transition: .5s;
 }
 
-#content i .github:hover{
+#content .github:hover{
 	opacity:0.6;
 	transition: .5s;
 }
