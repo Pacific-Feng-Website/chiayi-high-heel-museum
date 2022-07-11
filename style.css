@@ -214,17 +214,17 @@ h1{
 	color: black;
 }
 
-#relevantPage .col1-1:hover .pair1-1{
+#relevantPage #col1-1:hover #pair1-1{
 	color: #B1D3C5;
 	transition:0.3s;
 }
 
-#relevantPage .col5-1:hover .pair1-2{
+#relevantPage #col5-1:hover #pair1-2{
 	color: #B1D3C5;
 	transition:0.3s;
 }
 
-#relevantPage .col5-1:hover .pair1-3{
+#relevantPage #col5-1:hover #pair1-3{
 	color: #B1D3C5;
 	transition:0.3s;
 }
@@ -242,17 +242,17 @@ h1{
 	color: black;
 }
 
-#relevantPage .col1-2:hover .pair2-1{
+#relevantPage #col1-2:hover #pair2-1{
 	color: #B1D3C5;
 	transition:0.3s;
 }
 
-#relevantPage .col5-2:hover .pair2-2{
+#relevantPage #col5-2:hover #pair2-2{
 	color: #B1D3C5;
 	transition:0.3s;
 }
 
-#relevantPage .col5-2:hover .pair2-3{
+#relevantPage #col5-2:hover #pair2-3{
 	color: #B1D3C5;
 	transition:0.3s;
 }
