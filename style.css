@@ -220,34 +220,34 @@ h1{
 	transition:0.5s;
 }
 
-#content #author-pic{
+#selfIntro #author-pic{
 	border-radius:100%;
 	width:120px;
 	margin-top: 1vh;
 	margin-bottom:2vh;
 }
 
-#content #author-pic:hover{
+#selfIntro #author-pic:hover{
 	opacity:0.8;
 	transition: .5s;
 }
 
-#content .fb:hover{
+#selfIntro .fb:hover{
 	color: #0080FF;
 	transition: .5s;
 }
 
-#content .ig:hover{
+#selfIntro .ig:hover{
 	color: #FF00FF;
 	transition: .5s;
 }
 
-#content .mail:hover{
+#selfIntro .mail:hover{
 	color: #0080FF;
 	transition: .5s;
 }
 
-#content .github:hover{
+#selfIntro .github:hover{
 	opacity:0.6;
 	transition: .5s;
 }
