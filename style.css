@@ -530,3 +530,17 @@ h1{
 		line-height: 50px !important;
 	}
 }
+
+#content #backMenu p{
+	width:auto; 
+	display: flex; 
+	align-items: center; 
+	color: #A2B59F; 
+	font-weight: bold; 
+	cursor: pointer;
+}
+
+#content #backMenu p:hover{
+	color:#EACACB;
+	transition: 0.3s;
+}
