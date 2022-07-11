@@ -347,22 +347,22 @@ h1{
 
 #selfIntro #fb-selfIntro:hover{
 	color: #0080FF;
-	transition: .5s;
+	transition: .3s;
 }
 
 #selfIntro #ig-selfIntro:hover{
 	color: #F400F7;
-	transition: .5s;
+	transition: .3s;
 }
 
 #selfIntro #mail-selfIntro:hover{
 	color: #0080FF;
-	transition: .5s;
+	transition: .3s;
 }
 
 #selfIntro #github-selfIntro:hover{
 	opacity:0.6;
-	transition: .5s;
+	transition: .3s;
 }
 
 #selfIntro .row{
