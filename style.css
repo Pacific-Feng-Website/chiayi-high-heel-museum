@@ -435,7 +435,7 @@ h1{
 	height: 45%;
 	bottom: 0%;
 	background-color:#00000099;
-	padding-left: 0.5vw
+	padding-left: 5px;
 }
 
 #recentPost .card-img-overlayer h5{
