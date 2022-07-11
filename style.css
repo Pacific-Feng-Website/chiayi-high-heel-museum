@@ -138,7 +138,7 @@ h1{
 
 #siteIntro a .changeColor{
 	color: #B1D3C5;
-	font-weight: bolder;
+	font-weight: bold;
 	display:inline;
 }
 
@@ -156,7 +156,7 @@ h1{
 #content .post-time{
 	font-size: 13px;
 	color: #EACACB;
-	font-weight:bolder;
+	font-weight:bold;
 	margin:0;
 }
 
