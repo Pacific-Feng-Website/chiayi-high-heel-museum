@@ -232,8 +232,23 @@ h1{
 	transition: .5s;
 }
 
-#content i:hover{
-	opacity:0.8;
+#content i .fb:hover{
+	color: #0080FF;
+	transition: .5s;
+}
+
+#content i .ig:hover{
+	color: #FF00FF;
+	transition: .5s;
+}
+
+#content i .mail:hover{
+	color: #0080FF;
+	transition: .5s;
+}
+
+#content i .github:hover{
+	opacity:0.6;
 	transition: .5s;
 }
 
