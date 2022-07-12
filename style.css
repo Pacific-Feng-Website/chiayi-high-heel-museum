@@ -3,6 +3,12 @@ img{
 	width: 600px;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body{
+	font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
 .site {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -202,30 +208,102 @@ h1{
 	flex-flow:row wrap;
 }
 
+#relevantPage #col1-1{
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+#relevantPage #col5-1{
+	display: flex; 
+	align-items: center; 
+	justify-content: left; 
+	flex-flow: row wrap; 
+	padding-left:0;
+	padding-right:0;
+}
+
+#relevantPage #col5-2{
+	display: flex; 
+	align-items: center; 
+	justify-content: right; 
+	flex-flow: row wrap; 
+	padding-right:0;
+	text-align: right;
+	margin-left:0;
+	padding-left:0;
+}
+
+#relevantPage #col1-2{
+	display: flex; 
+	align-items: center; 
+	justify-content: center;" 
+}
+
+@media (max-width:1200px){
+	#relevantPage #col5-1{
+		padding-left: 1vw;
+	}
+
+	#relevantPage #col5-2{
+		padding-right: 1vw;
+	}
+}
+
+@media (max-width:678px){
+	#relevantPage #col5-1{
+		padding-left: 2vw;
+	}
+
+	#relevantPage #col5-2{
+		padding-right: 2vw;
+	}
+}
+
 #relevantPage #pair1-1{
 	color: black;
 }
 
 #relevantPage #pair1-2{
 	color: black;
+	margin-bottom: 0 !important; 
+	font-size: 14px; 
+	padding:0; 
+	width:100%;
 }
 
 #relevantPage #pair1-3{
 	color: black;
+	line-height:25px;
+	margin-bottom: 0 !important;
+	font-size: 18px;
+}
+
+#relevantPage #pair1-4{
+	color: black;
+	font-weight: bold;
+	line-height:25px;
+	margin-bottom: 0 !important;
+	font-size: 18px;
 }
 
 #relevantPage #col1-1:hover #pair1-1{
-	color: #B1D3C5;
+	color: #A2B59F;
 	transition:0.3s;
 }
 
 #relevantPage #col5-1:hover #pair1-2{
-	color: #B1D3C5;
+	color: #A2B59F;
 	transition:0.3s;
 }
 
 #relevantPage #col5-1:hover #pair1-3{
-	color: #B1D3C5;
+	color: #A2B59F;
+	transition:0.3s;
+}
+
+#relevantPage #col5-1:hover #pair1-4{
+	color: #A2B59F;
 	transition:0.3s;
 }
 
@@ -236,25 +314,107 @@ h1{
 
 #relevantPage #pair2-2{
 	color: black;
+	display:flex; 
+	margin-bottom: 0 !important; 
+	font-size: 14px; 
+	padding:0; 
+	justify-content: right;
 }
 
 #relevantPage #pair2-3{
 	color: black;
+	line-height:25px;
+	display:flex; 
+	margin-bottom: 0 !important; 
+	font-size: 18px; 
+	padding:0; 
+	justify-content: right;
+}
+
+#relevantPage #pair2-4{
+	color: black;
+	font-weight: bold;
+	line-height:25px;
+	display:flex; 
+	margin-bottom: 0 !important; 
+	font-size: 18px; 
+	padding:0; 
+	justify-content: right;
 }
 
 #relevantPage #col1-2:hover #pair2-1{
-	color: #B1D3C5;
+	color: #A2B59F;
 	transition:0.3s;
 }
 
 #relevantPage #col5-2:hover #pair2-2{
-	color: #B1D3C5;
+	color: #A2B59F;
 	transition:0.3s;
 }
 
 #relevantPage #col5-2:hover #pair2-3{
-	color: #B1D3C5;
+	color: #A2B59F;
 	transition:0.3s;
+}
+
+#relevantPage #col5-2:hover #pair2-4{
+	color: #A2B59F;
+	transition:0.3s;
+}
+
+@media(max-width:1200px){
+
+	#relevantPage #pair1-2{
+		font-size: 12px;
+	}
+	#relevantPage #pair1-3{
+		font-size: 16px;
+	}
+	#relevantPage #pair1-4{
+		font-size: 16px;
+	}
+
+	#relevantPage #pair2-2{
+		font-size: 12px;
+	}
+	#relevantPage #pair2-3{
+		font-size: 16px;
+	}
+	#relevantPage #pair2-4{
+		font-size: 16px;
+	}
+}
+
+@media(max-width:768px){
+	#relevantPage #pair1-2{
+		font-size: 11px;
+	}
+	#relevantPage #pair1-3{
+		font-size: 15px;
+	}
+	#relevantPage #pair1-4{
+		font-size: 14px;
+	}
+	#relevantPage #pair2-2{
+		font-size: 11px;
+	}
+	#relevantPage #pair2-3{
+		font-size: 15px;
+	}
+	#relevantPage #pair2-4{
+		font-size: 14px;
+	}
+}
+
+@media(max-width:576px){
+
+	#relevantPage #pair1-4{
+		letter-spacing:1px;
+	}
+
+	#relevantPage #pair2-4{
+		letter-spacing:1px;
+	}
 }
 
 #selfIntro #author-pic{
