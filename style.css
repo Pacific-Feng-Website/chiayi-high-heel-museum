@@ -444,13 +444,13 @@ h1{
 	font-size: 15px;
 	font-weight: bolder;
 	color: white;
-	bottom: 5px;
 }
 
 #recentPost .card-img-overlayer p{
 	font-size: 12px;
 	line-height: 30px !important;
 	color: white;
+	bottom: 5px;
 }
 
 @media (max-width: 1400px){
