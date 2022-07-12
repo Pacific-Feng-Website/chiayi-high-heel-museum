@@ -318,8 +318,8 @@ h1{
 	margin-bottom: 0 !important; 
 	font-size: 14px; 
 	padding:0; 
-	justify-content: right;
-	text-align:right;
+	justify-content: right  !important;
+	text-align:right  !important;
 }
 
 #relevantPage #pair2-3{
@@ -329,8 +329,8 @@ h1{
 	margin-bottom: 0 !important; 
 	font-size: 18px; 
 	padding:0; 
-	justify-content: right;
-	text-align:right;
+	justify-content: right  !important;
+	text-align:right  !important;
 }
 
 #relevantPage #pair2-4{
