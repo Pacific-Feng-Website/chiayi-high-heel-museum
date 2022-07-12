@@ -260,13 +260,22 @@ h1{
 #selfIntro #author-pic{
 	border-radius:100%;
 	width:120px;
-	margin-top: 1vh;
-	margin-bottom:2vh;
+	margin-top: 0vh;
+	margin-bottom:3vh;
 }
 
 #selfIntro #author-pic:hover{
 	opacity:0.8;
 	transition: .5s;
+}
+
+@media(max-width:1200px){
+	
+	#content #author-pic{
+		width:200px;
+		margin-top: 1vh;
+		margin-bottom:1vh;
+	}
 }
 
 #selfIntro #fb-selfIntro{
@@ -310,55 +319,48 @@ h1{
     flex-wrap: nowrap !important;
 }
 
-#selfIntro .col-2{
-	display: flex; 
-	justify-content: center; 
-	align-items: start;
-	flex-flow: row wrap;
-	padding:0;
-}
 
-@media(max-width:767px){
-	#selfIntro .col-2{
-		margin-left:3vw;;
-	}
-	
-	#selfIntro .col-10{
-		margin-left:-3vw;
-		padding-left:5vw !important;
-	}
-}
-
-
-#selfIntro .col-10{
-	padding:0 0 0 2vw; 
+#selfIntro .col-3{
 	display: flex;
-	flex-flow: row wrap;
-	padding-right: 3vw;
-}
-
-@media(max-width:1200px){
-	#selfIntro .col-10{
-		margin-left:0;
-		align-items: center;
-	}
-	
-	#content #author-pic{
-		width:100px;
-		margin-top: 5vh;
-	}
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 #selfIntro .selfIntro-icon{
 	padding:0;
 	width:100%;
 	display: flex;
-	justify-content:space-between;
+	justify-content:center;
+	padding: 0 20%
 }
+
+@media (max-width:1200px){
+	
+	#selfIntro .selfIntro-icon{
+		padding:0;
+		width:100%;
+		display: flex;
+		justify-content:space-between;
+	}
+	
+}
+
+#selfIntro .fa{
+	margin: 0 10px;
+}
+
+@media (max-width:1200px){
+	
+	#selfIntro .fa{
+		margin: 0;
+	}
+	
+}
+
 
 #selfIntro h3{
     margin-top: 2vh;
-	margin-bottom: -2vh;
+	margin-bottom: 2vh;
 }
 
 #selfIntro p{
@@ -372,8 +374,8 @@ h1{
 @media (max-width:1200px){
 
 	#selfIntro h3{
-		margin-top: -2vh;
-		margin-bottom: -8vh;
+		margin-top: 2vh;
+		margin-bottom: 2vh;
 	}
 	
 	#selfIntro p{
@@ -385,8 +387,8 @@ h1{
 
 @media (max-width:767px){
 	#selfIntro h3{
-		margin-top: -2vh;
-		margin-bottom: -8vh;
+		margin-top: 1.5vh;
+		margin-bottom: 1.5vh;
 	}
 	
 	#selfIntro p{
