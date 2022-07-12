@@ -214,7 +214,7 @@ h1{
 	justify-content: center;
 }
 
-#relevantPage #col4-1{
+#relevantPage #col5-1{
 	display: flex; 
 	align-items: center; 
 	justify-content: left; 
@@ -223,13 +223,14 @@ h1{
 	padding-right:0;
 }
 
-#relevantPage #col4-2{
+#relevantPage #col5-2{
 	display: flex; 
 	align-items: center; 
 	justify-content: right; 
 	flex-flow: row wrap; 
 	padding-right:0;
 	text-align: right;
+	margin-left:0;
 	padding-left:0;
 }
 
@@ -240,21 +241,21 @@ h1{
 }
 
 @media (max-width:1200px){
-	#relevantPage #col4-1{
+	#relevantPage #col5-1{
 		padding-left: 1vw;
 	}
 
-	#relevantPage #col4-2{
+	#relevantPage #col5-2{
 		padding-right: 1vw;
 	}
 }
 
 @media (max-width:678px){
-	#relevantPage #col4-1{
+	#relevantPage #col5-1{
 		padding-left: 2vw;
 	}
 
-	#relevantPage #col4-2{
+	#relevantPage #col5-2{
 		padding-right: 2vw;
 	}
 }
@@ -291,17 +292,17 @@ h1{
 	transition:0.3s;
 }
 
-#relevantPage #col4-1:hover #pair1-2{
+#relevantPage #col5-1:hover #pair1-2{
 	color: #A2B59F;
 	transition:0.3s;
 }
 
-#relevantPage #col4-1:hover #pair1-3{
+#relevantPage #col5-1:hover #pair1-3{
 	color: #A2B59F;
 	transition:0.3s;
 }
 
-#relevantPage #col4-1:hover #pair1-4{
+#relevantPage #col5-1:hover #pair1-4{
 	color: #A2B59F;
 	transition:0.3s;
 }
@@ -318,6 +319,7 @@ h1{
 	font-size: 14px; 
 	padding:0; 
 	justify-content: right;
+	text-align:right;
 }
 
 #relevantPage #pair2-3{
@@ -328,6 +330,7 @@ h1{
 	font-size: 18px; 
 	padding:0; 
 	justify-content: right;
+	text-align:right;
 }
 
 #relevantPage #pair2-4{
@@ -339,6 +342,7 @@ h1{
 	font-size: 18px; 
 	padding:0; 
 	justify-content: right;
+	text-align:right;
 }
 
 #relevantPage #col1-2:hover #pair2-1{
@@ -346,17 +350,17 @@ h1{
 	transition:0.3s;
 }
 
-#relevantPage #col4-2:hover #pair2-2{
+#relevantPage #col5-2:hover #pair2-2{
 	color: #A2B59F;
 	transition:0.3s;
 }
 
-#relevantPage #col4-2:hover #pair2-3{
+#relevantPage #col5-2:hover #pair2-3{
 	color: #A2B59F;
 	transition:0.3s;
 }
 
-#relevantPage #col4-2:hover #pair2-4{
+#relevantPage #col5-2:hover #pair2-4{
 	color: #A2B59F;
 	transition:0.3s;
 }
