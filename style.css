@@ -444,6 +444,7 @@ h1{
 	font-size: 15px;
 	font-weight: bolder;
 	color: white;
+	bottom: 5px;
 }
 
 #recentPost .card-img-overlayer p{
