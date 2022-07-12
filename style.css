@@ -447,11 +447,9 @@ h1{
 }
 
 #recentPost .card-img-overlayer p{
-	position: absolute;
 	font-size: 12px;
 	line-height: 30px !important;
 	color: white;
-	bottom: 0%;
 }
 
 @media (max-width: 1400px){
